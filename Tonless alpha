@@ -1,0 +1,133 @@
+#include <stdio.h>
+#include <string.h>
+#include <locale.h>
+#include <stdlib.h>
+
+char delimiter[] = ":::";
+char Direccion[] = "cuentas.db";
+void MenuDisplay();
+void MenuSeleccion();
+void Registro();
+void InicioSesion();
+
+
+struct login                           
+{
+	char nombre[50];
+	int edad;
+	double peso;
+	double estatura;
+	char password[20];
+};
+
+int main(int argc, char *argv[]) {
+	MenuDisplay();
+	return 0;
+}
+
+void MenuDisplay(){
+	printf("---------------------------------------------------------\n");
+	printf("--------------------------TonLess------------------------\n");
+	printf("---------------------------------------------------------\n");
+	printf("1. Registrarse\n");
+	printf("2. Logearse\n");
+	printf("3. Salir\n");
+	MenuSeleccion();
+}
+	
+void Registro(){
+	FILE *log;
+	
+	log=fopen(Direccion,"a");
+	if (log == NULL)
+	{
+		fputs("Error al abrir el archivo. Por favor revisa que la ruta de creacion sea correcta.", stderr);
+		exit(0);
+	}else{
+		log=fopen(Direccion,"a");
+		struct login lg;
+		printf("Hola, bienvenido al sistema de ejercicios Tonless. Necesitamos capturar unos datos para el registro\n");
+		printf("\nIngresa tu nombre(Servira de usuario):\n");
+		gets(lg.nombre);
+		fflush(stdin);
+		printf("\nIngresa tu edad:\n");
+		scanf("%d",&lg.edad);
+		fflush(stdin);
+		printf("\nIngresa tu peso:\n");
+		scanf("%lf",&lg.peso);
+		fflush(stdin);
+		printf("\nIngresa tu estatura:\n");
+		scanf("%lf",&lg.estatura);
+		fflush(stdin);
+		printf("\nAhora por favor ingresa tu contraseña(no mas de 20 caracteres)\n");
+		gets(lg.password);
+		fflush(stdin);
+		fprintf(log,"%s:::%d:::%g:::%g:::%s\n",lg.nombre,lg.edad,lg.peso,lg.estatura,lg.password);
+		fclose(log);
+		printf("\nRegistration Successful, %s\n",lg.nombre);
+		printf("Press any key to continue...");
+		getchar();
+		fflush(stdin);
+		system("CLS");
+		InicioSesion();
+	}	
+	
+	
+}
+
+void InicioSesion(){
+	char username[30],password[20];
+	FILE *log;
+	
+	log = fopen("Direccion","r");
+	if (log == NULL)
+	{
+		fputs("Error al abrir el archivo. Por favor revisa que la ruta de creacion sea correcta.", stderr);
+		exit(0);
+	}
+
+	printf("\nIngresa tus credenciales para iniciar sesion\n\n");
+	fflush(stdin);
+	printf("Username:  ");
+	gets(username);
+	fflush(stdin);
+	printf("\nPassword: ");
+	gets(password);
+	fflush(stdin);
+	FILE * sArchi = fopen(Direccion,"rb");
+	//imprimiendo lo que contiene el archivo
+/*	while(feof(sArchi)==0){*/
+/*		char * token1=strtok()*/
+/*	}*/
+	if (sArchi)
+	{
+		while (fgets(line,sizeof line,f) && atoi(line) != id)
+			;
+		if (!feof(f))
+			printf("%s",line);
+		fclose(f);
+	}
+}
+
+void MenuSeleccion(){
+	int option;
+	scanf("%d", &option);
+	fflush(stdin);
+	switch(option){
+	case 1:
+		system("CLS");
+		Registro();
+		break;
+	case 2:
+		system("CLS");
+		InicioSesion();
+		break;
+	case 3:
+		printf("\nHasta luego\n");
+		exit(0);
+	default:
+		system("CLS");
+		printf("\nIntentalo de nuevo rey\n");
+		MenuDisplay();
+}
+}
