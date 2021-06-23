@@ -1,10 +1,10 @@
-Lagartijas declinadas(4x10)::: 20
-Sentadillas con salto(4x15)::: 40
-Trotar(15min):::198
-Abdominales(4x15)::: 30
-Plancha(1 min):::15
-Desplantes(4x15)::: 30
-Curls(4x15)::: 20
-Dominadas con agarrre pronado(4x7)::: 33
-Pike push up(4x12):::23
-Fondos(4x7)::: 22
+Lagartijas declinadas(4x10)::: 200
+Sentadillas con salto(4x15)::: 400
+Trotar(15min):::1980
+Abdominales(4x15)::: 300
+Plancha(1 min):::150
+Desplantes(4x15)::: 300
+Curls(4x15)::: 200
+Dominadas con agarrre pronado(4x7)::: 330
+Pike push up(4x12):::230
+Fondos(4x7)::: 220
