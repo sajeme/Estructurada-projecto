@@ -1,10 +1,10 @@
-Estiramiento de trapecios(4x10):::20
-Estiramiento de hombros en poste(4x10):::20
-Estiramiento de flexores de la cadera(4x10):::20
-Estiramiento de pantorrilla(4x10):::20
-Estiramiento de cuello y abdomen(4x10):::20
-Estiramiento de cuádriceps(4x10):::20
-Estiramiento de dorsal con manos cruzadas(4x8):::18
-Estiramiento de cadena posterior(4x8):::18
-Estiramiento de cadena posterior en el suelo(4x8):::18
-Estiramiento de apertura de piernas(4x8):::18
+Estiramiento de trapecios(4x10):::200
+Estiramiento de hombros en poste(4x10):::200
+Estiramiento de flexores de la cadera(4x10):::200
+Estiramiento de pantorrilla(4x10):::200
+Estiramiento de cuello y abdomen(4x10):::200
+Estiramiento de cuádriceps(4x10):::200
+Estiramiento de dorsal con manos cruzadas(4x8):::180
+Estiramiento de cadena posterior(4x8):::180
+Estiramiento de cadena posterior en el suelo(4x8):::180
+Estiramiento de apertura de piernas(4x8):::180
