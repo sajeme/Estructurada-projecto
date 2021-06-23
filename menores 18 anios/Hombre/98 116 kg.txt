@@ -1,9 +1,9 @@
-Lagartijas con rodillas apoyadas parciales(4x10):::19
-Sentadilla isométrica(35sx4):::18
-Caminar(50min):::500
-Sentadillas parciales(4x12):::24
-Sujetarse de la barra(30sx4):::18
-Abdominales parciales(4x12):::28
-Fondos en banco(4x10):::24
-Extensiones de tricep en banco(4x10):::21
-Australian chin ups(4x10):::25
+Lagartijas con rodillas apoyadas parciales(4x10):::190
+Sentadilla isométrica(35sx4):::180
+Caminar(50min):::5000
+Sentadillas parciales(4x12):::240
+Sujetarse de la barra(30sx4):::180
+Abdominales parciales(4x12):::280
+Fondos en banco(4x10):::240
+Extensiones de tricep en banco(4x10):::210
+Australian chin ups(4x10):::250
