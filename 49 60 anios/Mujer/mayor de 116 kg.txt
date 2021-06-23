@@ -1,10 +1,10 @@
-Flexo extensión de rodillas(4x8):::18
-Flexo extensión de codos(4x8):::18
-Estiramiento de hombros en barra(4x8):::18
-Estiramiento de trapecios(4x8):::18
-Estiramiento de hombros en poste(4x8):::18
-Estiramiento de flexores de la cadera(4x10):::20
-Estiramiento de pantorrilla(4x10):::20
-Estiramiento de cuello y abdomen(4x10):::20
-Estiramiento de cuádriceps(4x10):::20
-Caminar(25min):::250
+Flexo extensión de rodillas(4x8):::180
+Flexo extensión de codos(4x8):::180
+Estiramiento de hombros en barra(4x8):::180
+Estiramiento de trapecios(4x8):::180
+Estiramiento de hombros en poste(4x8):::180
+Estiramiento de flexores de la cadera(4x10):::200
+Estiramiento de pantorrilla(4x10):::200
+Estiramiento de cuello y abdomen(4x10):::200
+Estiramiento de cuádriceps(4x10):::200
+Caminar(25min):::2500
