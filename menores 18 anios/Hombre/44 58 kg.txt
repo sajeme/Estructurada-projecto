@@ -1,6 +1,6 @@
 Lagartijas declinadas(4x10):::200
 Sentadillas con salto(4x15):::400
-Trotar(20min):::2640
+Trotar(20min):::264
 Abdominales(4x15):::300
 Plancha(1 min 20s):::180
 Desplantes(4x15):::300
