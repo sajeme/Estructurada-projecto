@@ -7,4 +7,4 @@ Estiramiento de flexores de la cadera(4x15):::270
 Estiramiento de pantorrilla(4x15):::270
 Estiramiento de cuello y abdomen(4x15):::270
 Estiramiento de cuádriceps(4x15):::270
-Caminar(45min):::4500
+Caminar(45min):::450
