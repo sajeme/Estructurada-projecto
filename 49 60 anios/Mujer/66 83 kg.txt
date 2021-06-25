@@ -1,4 +1,4 @@
-Saltar cuerda(1minx3)::1090
+Saltar cuerda(1minx3):::109
 Mountain climbers(4x18):::400
 Bulgarian squats(4x9):::220
 Burpees medios(4x4):::100
